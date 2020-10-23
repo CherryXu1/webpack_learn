@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpack初体验</title>
+</head>
+
+<body>
+    <h1>webpack 初体验</h1>
+    <p>
+        一、创建src文件夹后创建index.js为webpack入口起点文件 开始打包，打包后输出到build文件夹下的built.js文件
+        <pre>
+          1.运行指令
+            1.1开发环境:webpack ./src/index.js -o ./build/built.js --mode=development
+            webpack 会以./src/index.js为入口文件开始打包，打包后输出到./build/built.js
+            整体打包环境，是开发环境
+            1.2生产环境:webpack ./src/index.js -o ./build/built.js --mode=production
+            webpack 会以./src/index.js为入口文件开始打包，打包后输出到./build/built.js
+            整体打包环境，是生产环境.</pre>
+        <pre>
+              2结论:
+                  1.webpack 能处理js文件和json资源，不能处理css/img等其他资源。
+                  2.生产和开发环境将ES6模块化编译成浏览器识别的模块化。
+                  3.生产环境比开发环境多一个代码压缩
+
+                </pre>
+    </p>
+
+    <!-- 引入打包后资源 -->
+    <script src="./built.js"></script>
+</body>
+
+</html>

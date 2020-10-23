@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1601364559049'); /* IE9 */
+  src: url('iconfont.eot?t=1601364559049#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO0AAsAAAAACFwAAANmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDaIM0ATYCJAMUCwwABCAFhG0HWhtSBxHVm8PIfhzGMck6c2bkTSjPG/sePF+69P3d1UWnCzEohFgBySFuAaBKKgNTBVR50tlJAJi12ekzKsLQHePBf/OUDaXn9tv/HDPeWjC/bQ0yxaygoL0BjhJoNqu6iCC7AzlRv2Hsyou4GQI49GQ4Mm/BsnXYGIxNAsixwwd3Y6eMmJpKwUbwlZxokMdY2OqOSgYe+b8vtYwVGxSWxrjVqgPz9+FWjKuYp73/3jbt4Y1nB9hpoIHhgAE5U+o8hg6Tw9E4ynyDCzjYKNRY06ZWuBXz/v+PpTtSO+Y/PBAUGgPiwyhvDoCLUgYqxtlUCFRMpUJBhUuFhop54hdzGwsAB2gF3AfikLb/mLk+FNrf3MD7zcM6Gdvf0ZiDfzKDsu5leOkbsrPX5eSsz8vbmJu7ydL1fBXwkjN7PM/ekZ2/LqdgfV5R2WmFF94HeyH3woJCT7WQ5tjJg6alFUh8tXP3M8b7Emh175tYe1rQ/AItxaGNbJm5Tjtqw/T9B+Vd3sKYnD4EJDd3tmvgqFZ6U0vdaldAnP+9vPVrTKbB/+bK5s0yl+fynaY4N+Rty/zqiRNtni8Nc0+FtGpsbuaYPJeHmngx41X563ETcWPXmZ7rheNi55XNwvV2pfl5fytahSOBX9+7LAwXxlMkc60ZeIsWlVRVN7gNzsySiRO48uq1tWjRqlW2znKNmKw6dmwVkgnlQdlrfFL461k73d7ulbBwN5yzgL06XJXD/3Lt6d4APgrELqNg/8nL3+EDd7aa/tcOGACKnugVMPi/3NAvZaOgtei3ilp2GFVimCwjt9pCOWQxmp+mVEqfA/xMb1tKx1F3aB0HwU6JGCia0QM0Nv0RBjMcLAKMBx82s8BhGAtPD9COM2jE+IGh3AAgtOYXKFoSBprWpCAMpgQsOlIPPlqLBocN0u6CAQaKOfm5hobopf3L1B27Whb6oPKG4b02lpT4hBcsTBHJ4jSbqbHDxtgTPkNOqqgdm1TgdljXQ047ZnSMR/Isk0TLvinujs155hoaopf2L1N37Or2ps/9/A3De22spq3C+YKFaXLJ4rQFolburdqu5TXhM+SkitqxSQXsWM3kIWf5shkd47FH/CwT1E3bKuP51dszHgMcjMWWKNFixBIf/pMPRUS4LWHYkVGu3FE4BwAA') format('woff2'),
+  url('iconfont.woff?t=1601364559049') format('woff'),
+  url('iconfont.ttf?t=1601364559049') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1601364559049#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-test:before {
+  content: "\e633";
+}
+
+.icon-icon-test1:before {
+  content: "\e63a";
+}
+
+.icon-icon-test2:before {
+  content: "\e640";
+}
+
+.icon-icon-test3:before {
+  content: "\e644";
+}
+
